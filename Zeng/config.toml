@@ -1,56 +1,44 @@
+# 设置目标URL
 baseURL = ""
-# [en, zh-cn, fr, pl, ...] determines default content language
-# [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+
+# 设置默认语言
+defaultContentLanguage = "zh-cn"
 
 # 主题
 theme = "LoveIt"
 
-# 主题目录
-# themesDir = ""
-
+# 忽略ins登入许可的错误
 ignoreErrors = "error-missing-instagram-accesstoken"
 
-# website title
 # 网站标题
-title = "LoveIt"
+title = "Zeng"
 
-# whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = false
-# whether to use git commit log
+
 # 是否使用 git 信息
 enableGitInfo = false
-# whether to use emoji code
+
 # 是否使用 emoji 代码
 enableEmoji = true
 
+# 多语言
 [languages]
   [languages.en]
-    weight = 1
-    # language code
+    weight = 2
     languageCode = "en"
-    # language name
     languageName = "English"
-    # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
-    # default amount of posts in each pages
     paginate = 12
-    # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
-    # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # Menu config
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "posts"
-        # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
-        # you can add extra information after the name (HTML format is supported), such as icons
-        post = ""
+		post = ""
         name = "Posts"
         url = "/posts/"
-        # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
       [[languages.en.menu.main]]
@@ -94,77 +82,47 @@ enableEmoji = true
         title = "GitHub"
         weight = 6
     [languages.en.params]
-      # site description
       description = "About LoveIt Theme"
-      # site keywords
       keywords = ["Theme", "Hugo"]
-      # App icon config
       [languages.en.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
         title = "LoveIt"
-        # whether to omit favicon resource links
         noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
         svgFavicon = ""
-        # Android browser theme color
         themeColor = "#ffffff"
-        # Safari mask icon color
         iconColor = "#5bbad5"
-        # Windows v8-10 tile color
         tileColor = "#da532c"
-      # Search config
       [languages.en.params.search]
         enable = true
-        # type of search engine ("lunr", "algolia")
         type = "algolia"
-        # max index length of the chunked content
         contentLength = 4000
-        # placeholder of the search bar
         placeholder = ""
-        # max number of results length
         maxResultLength = 10
-        # snippet length of the result
         snippetLength = 30
-        # HTML tag name of the highlight part in results
         highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
           index = "index.en"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      # Home page config
       [languages.en.params.home]
-        # amount of RSS pages
         rss = 10
-        # Home page profile
         [languages.en.params.home.profile]
           enable = true
-          # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
-          # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
-          # title shown in home page (HTML format is supported)
           title = ""
-          # subtitle shown in home page
           subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-          # whether to use typeit animation for subtitle
           typeit = true
-          # whether to show social links
           social = true
-          # disclaimer (HTML format is supported)
           disclaimer = ""
-        # Home page posts
         [languages.en.params.home.posts]
           enable = true
-          # special amount of posts in each home posts page
           paginate = 6
-      # Social config in home page
       [languages.en.params.social]
         GitHub = "xxxx"
         Linkedin = ""
         Twitter = "xxxx"
- #        Instagram = "xxxx"
+        Instagram = "xxxx"
         Facebook = "xxxx"
         Telegram = "xxxx"
         Medium = ""
@@ -229,7 +187,7 @@ enableEmoji = true
           prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
-    weight = 2
+    weight = 1
     # 网站语言, 仅在这里 CN 大写
     languageCode = "zh-CN"
     # 语言名称
