@@ -581,22 +581,16 @@ enableEmoji = true
         RSS = true
 
 [params]
-  # LoveIt theme version
   # LoveIt 主题版本
   version = "0.2.X"
-  # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
   defaultTheme = "auto"
-  # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/dillonzq/LoveIt"
-  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
-  # date format
   # 日期格式
   dateFormat = "2006-01-02"
-  # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
@@ -612,19 +606,14 @@ enableEmoji = true
     # Header title config
     # 页面头部导航栏标题配置
     [params.header.title]
-      # URL of the LOGO
       # LOGO 的 URL
       logo = ""
-      # title name
       # 标题名称
-      name = "LoveIt"
-      # you can add extra information before the name (HTML format is supported), such as icons
+      name = "Zeng's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
-      # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
-      # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
       typeit = false
 
@@ -646,11 +635,9 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
-    # ICP info only in China (HTML format is supported)
+    since = 2021
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
-    # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
