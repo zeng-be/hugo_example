@@ -78,7 +78,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/zeng-be"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -248,8 +248,8 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
+        url = "https://github.com/zeng-be"
+        title = "Zeng"
         weight = 6
     [languages.zh-cn.params]
       # 网站描述
@@ -444,7 +444,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/zeng-be"
         title = "GitHub"
         weight = 6
     [languages.fr.params]
@@ -870,7 +870,7 @@ enableEmoji = true
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
-    # Third-party library config
+  
     # 第三方库配置
     [params.page.library]
       [params.page.library.css]
@@ -883,35 +883,35 @@ enableEmoji = true
         # located in "assets/" 位于 "assets/"
         # Or 或者
         # someJavascript = "https://cdn.example.com/some.js"
-    # Page SEO config
+    
     # 页面 SEO 配置
     [params.page.seo]
-      # image URL
+     
       # 图片 URL
       images = []
-      # Publisher info
+     
       # 出版者信息
       [params.page.seo.publisher]
         name = "xxxx"
         logoUrl = "/images/avatar.png"
 
-  # TypeIt config
+
   # TypeIt 配置
   [params.typeit]
-    # typing speed between each step (measured in milliseconds)
+   
     # 每一步的打字速度 (单位是毫秒)
     speed = 100
-    # blinking speed of the cursor (measured in milliseconds)
+  
     # 光标的闪烁速度 (单位是毫秒)
     cursorSpeed = 1000
-    # character used for the cursor (HTML format is supported)
+   
     # 光标的字符 (支持 HTML 格式)
     cursorChar = "|"
-    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+  
     # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
     duration = -1
 
-  # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
+ 
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
     google = ""
@@ -920,52 +920,47 @@ enableEmoji = true
     pinterest = ""
     baidu = ""
 
-  # Site SEO config
+
   # 网站 SEO 配置
   [params.seo]
-    # image URL
+    
     # 图片 URL
     image = "/images/Apple-Devices-Preview.png"
-    # thumbnail URL
+  
     # 缩略图 URL
     thumbnailUrl = "/images/screenshot.png"
 
-  # Analytics config
+  
   # 网站分析配置
   [params.analytics]
     enable = false
     # Google Analytics
     [params.analytics.google]
       id = ""
-      # whether to anonymize IP
+     
       # 是否匿名化用户 IP
       anonymizeIP = true
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
-      # server url for your tracker if you're self hosting
+      
       # 自行托管追踪器时的主机路径
       server = ""
 
-  # Cookie consent config
+  
   # Cookie 许可配置
   [params.cookieconsent]
     enable = false
-    # text strings used for Cookie consent banner
+  
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = ""
       dismiss = ""
       link = ""
 
-  # CDN config for third-party library files
+  
   # 第三方库文件的 CDN 设置
   [params.cdn]
-    # CDN data file name, disabled by default
-    # ("jsdelivr.yml")
-    # located in "themes/LoveIt/assets/data/cdn/" directory
-    # you can store your own data files in the same path under your project:
-    # "assets/data/cdn/"
     # CDN 数据文件名称, 默认不启用
     # ("jsdelivr.yml")
     # 位于 "themes/LoveIt/assets/data/cdn/" 目录
@@ -973,30 +968,29 @@ enableEmoji = true
     # "assets/data/cdn/"
     data = "jsdelivr.yml"
 
-  # Compatibility config
+
   # 兼容性设置
   [params.compatibility]
-    # whether to use Polyfill.io to be compatible with older browsers
+   
     # 是否使用 Polyfill.io 来兼容旧式浏览器
     polyfill = false
-    # whether to use object-fit-images to be compatible with older browsers
+
     # 是否使用 object-fit-images 来兼容旧式浏览器
     objectFit = false
 
-# Markup related configuration in Hugo
 # Hugo 解析文档的配置
 [markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
     codeFences = true
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+   
     # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
-  # Goldmark is from Hugo 0.60 the default library used for Markdown
+
   # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
   [markup.goldmark]
     [markup.goldmark.extensions]
@@ -1008,39 +1002,32 @@ enableEmoji = true
       taskList = true
       typographer = true
     [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
       # 是否在文档中直接使用 HTML 标签
       unsafe = true
-  # Table Of Contents settings
   # 目录设置
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
 
-# Author config
 # 作者配置
 [author]
   name = "xxxx"
   email = ""
   link = ""
 
-# Sitemap config
 # 网站地图配置
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
-# Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
   posts = ":filename"
 
-# Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
-  # privacy of the Google Analytics (replaced by params.analytics.google)
   # Google Analytics 相关隐私 (被 params.analytics.google 替代)
   [privacy.googleAnalytics]
     # ...
@@ -1049,20 +1036,17 @@ enableEmoji = true
   [privacy.youtube]
     privacyEnhanced = true
 
-# Options to make output .md files
 # 用于输出 Markdown 格式文档的设置
 [mediaTypes]
   [mediaTypes."text/plain"]
     suffixes = ["md"]
 
-# Options to make output .md files
 # 用于输出 Markdown 格式文档的设置
 [outputFormats.MarkDown]
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
 
-# Options to make hugo output files
 # 用于 Hugo 输出文档的设置
 [outputs]
   home = ["HTML", "RSS", "JSON"]
